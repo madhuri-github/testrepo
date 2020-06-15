@@ -57,6 +57,17 @@
 	</build>
 
 	<repositories>
+	    <repository>
+            <id>Teamfeed</id>
+            <url>https://pkgs.dev.azure.com/madhuriinturi/Spring_boot/_packaging/Teamfeed/maven/v1</url>
+        <releases>
+          <enabled>true</enabled>
+        </releases>
+        <snapshots>
+          <enabled>true</enabled>
+        </snapshots>
+        </repository>
+		<repository>
 		<repository>
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
